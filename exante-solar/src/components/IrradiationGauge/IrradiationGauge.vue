@@ -1,11 +1,11 @@
 <template>
-  <div class="irradiation-gauge-card">
+  <div class="w-full max-w-[550px] mx-auto p-6 bg-white rounded-2xl shadow-lg">
     <h2 class="text-xl font-semibold text-center mb-2">Your solar irradiation</h2>
     <p class="text-center text-sm mb-4">
       Total expected solar energy this period:<br />
       <strong>{{ expectedKWh }} KWh</strong>
     </p>
-    <div ref="chartContainer" class="chart-container">
+    <div ref="chartContainer" class="w-full h-[220px] relative">
       <VChart v-if="option" :option="option" autoresize />
     </div>
     <p class="text-center text-sm text-gray-500 mt-2">
