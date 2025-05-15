@@ -12,7 +12,7 @@ npm run dev
 ```
 
 ## Assumptions Made
-irradiation.json and policies.json are mocked API responses placed in the public/ directory.
+`irradiation.json` and `policies.json` are mocked API responses placed in the `public/` directory.
 
 The project dynamically fetches and processes these files to calculate actual vs expected solar irradiation.
 
