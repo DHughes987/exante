@@ -3,7 +3,7 @@
 ## How to Run
 
 ```bash
-cd exante-solar
+cd exante-interview
 
 npm install
 
