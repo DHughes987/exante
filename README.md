@@ -3,7 +3,9 @@
 ## How to run
 ``
 cd exante-solar
+
 npm install
+
 npm run dev
 ``
 
